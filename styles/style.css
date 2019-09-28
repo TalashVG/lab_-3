@@ -1,0 +1,64 @@
+.house_roof {
+  width: 0;
+  height: 0;
+  border-left: 252px solid transparent;
+  border-right: 252px solid transparent;
+  border-bottom: 301px solid black;
+}
+
+.roof_chimney{
+	width: 50px;
+	height: 80px;
+	border: 1px solid black;
+	margin: 15px;
+	background: black;
+}
+
+.house_wall{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-content: space-around;
+	align-items: stretch;
+	height: 500px;
+  	width: 500px;
+  	border: 2px solid black;
+  	background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+.wall_window{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background:  linear-gradient(145deg, #ee82ee, slateblue, #ffd86a, purple);
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.window_frame_hor, .window_frame_vert{
+  	border: 1px solid black;
+}
+
+.window_frame_vert{
+	transform: rotate(90deg);
+}
+
+.wall_door{
+	height: 100px;
+	width: 70px;
+	border: 1px solid black;
+	background: #654321;
+	margin-top: 65px;
+	display: flex;
+	align-items: center;
+}
+
+.door_handle{
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background-color: #3b3936;
+}
